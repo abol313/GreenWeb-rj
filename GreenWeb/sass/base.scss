@@ -1,0 +1,21 @@
+@import url($font-url);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-name;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-name;
+}
+
+.main-wrapper {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
