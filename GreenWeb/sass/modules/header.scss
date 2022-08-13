@@ -10,7 +10,7 @@
 }
 
 .row {
-  width: 1280px;
+  width: 85%;
   max-width: 100%;
   position: relative;
   margin: 0 auto;
@@ -184,8 +184,9 @@
     justify-content: flex-end;
     align-items: center;
 
+
     &::before {
-      width: 3000px !important;
+      width: 160px !important;
       transform: none;
       transform: translateX(-96%) !important;
       border-radius: 0;

@@ -1,0 +1,74 @@
+.main {
+  padding: 15px;
+  position: relative;
+  display: flex;
+  align-content: center;
+
+  .column {
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 100%;
+
+    .card {
+      text-align: center;
+
+      p {
+        text-align: center;
+      }
+
+      .card-header {
+
+        p {
+          text-align: center;
+          margin-bottom: 30px;
+
+          .lazyDone {
+            width: auto;
+            background-color: transparent;
+            background-image: none !important;
+            opacity: 1;
+            display: block;
+            margin: 0 auto 20px;
+            text-align: center;
+          }
+
+          strong {
+            text-align: center;
+
+            .card-title {
+              font-size: 22px;
+              color: #79a342;
+            }
+          }
+
+          .card-title2 {
+            color: #aaaaaa;
+            font-size: 14px;
+          }
+        }
+      }
+      .card-footer {
+        width: 100%;
+        margin-top: 50px;
+
+        .btn-success-hover {
+          color: #79a342;
+          background-color: #ffffff;
+          padding: 8px 30px;
+          margin: 0px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #79a342;
+          border-radius: 100px;
+
+          &:hover {
+            color: #ffffff;
+            background-color: #79a342;
+            border-style: solid;
+            border-color: #79a342;
+          }
+        }
+      }
+    }
+  }
+}

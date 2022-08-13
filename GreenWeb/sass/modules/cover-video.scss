@@ -138,10 +138,10 @@
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       -moz-osx-font-smoothing: grayscale;
-      transition: all .2s ease-in-out;
+      transition: all .3s ease-in-out;
 
-      &:hover {
-        animation: BtnFxAbsorber .8s forwards;
+      &:hover , &:focus {
+        box-shadow: inset 0 -3.25em 0 0 #333;
       }
     }
   }
